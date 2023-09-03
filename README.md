@@ -40,13 +40,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Browsescherm  
-  <img src="readme-images/shotdeck_mobile_browse" width="375px" alt="Op deze pagina kunnen filmmakers browsen naar compositie, shot en coloring inspiratie">
-  <img src="readme-images/shotdeck_desktop_browse" width="375px">
+  <img src="readme-images/shotdeck_mobile_browse.png" width="375px" alt="Op deze pagina kunnen filmmakers browsen naar compositie, shot en coloring inspiratie">
+  <img src="readme-images/shotdeck_desktop_browse.png" width="375px">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Shot detailpagina/popup  
-  <img src="readme-images/shotdeck_mobile_detail" width="375px" alt="Op deze pagina zien filmmakers alle details van een shot">
-  <img src="readme-images/shotdeck_desktop_detail" width="375px">
+  <img src="readme-images/shotdeck_mobile_detail.png" width="375px" alt="Op deze pagina zien filmmakers alle details van een shot">
+  <img src="readme-images/shotdeck_desktop_detail.png" width="375px">
 </details>
 
 
