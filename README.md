@@ -67,14 +67,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <ul>
     <li>[MOBILE & TOUCH] Links en buttons staan in sommige gevallen te dicht op elkaar > benadeelt usability.
-    <img src="readme-images/shotdeck_menu_mobile.jpg" width="250px"></li>
+    <img src="readme-images/shotdeck_menu_mobile.jpg" width="400px"></li>
     <li>[HEADINGS] Er worden geen heading elementen gebruikt om content te introduceren.</li>
     <li>[IMAGES] Bijna alle afbeeldingen hebben geen alt attribute > Maakt kern website onbruikbaar voor blinden.
-    <img src="readme-images/shotdeck_geenalt1.png" width="250px"><img src="readme-images/shotdeck_geenalt2.png" width="250px"></li>
+    <img src="readme-images/shotdeck_geenalt1.png" width="400px"><img src="readme-images/shotdeck_geenalt2.png" width="250px"></li>
     <li>[APPEARANCE] Light and dark mode is niet supported.</li>
     <li>[APPEARANCE] Tekst kan niet worden vergroot naar 200%.</li>
     <li>[COLOR CONTRAST] Afbeeldingen die overlappen met tekst zijn in sommige gevallen niet goed leesbaar.
-    <img src="readme-images/shotdeck_contrast.png" width="250px"></li>
+    <img src="readme-images/shotdeck_contrast.png" width="400px"></li>
   </ul>
 
 </details>
