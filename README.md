@@ -55,9 +55,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <img src="readme-images/wcagchecklist1_test1.png" width="200px">
+  <img src="readme-images/wcagchecklist2_test1.png" width="200px">
+  <img src="readme-images/wcagchecklist3_test1.png" width="200px">
+  <img src="readme-images/wcagchecklist4_test1.png" width="200px">
+  <img src="readme-images/wcagchecklist5_test1.png" width="200px">
+
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  <ul>
+    <li>[MOBILE & TOUCH] Links en buttons staan in sommige gevallen te dicht op elkaar > benadeelt usability.</li>
+    <li>[HEADINGS] Er worden geen heading elementen gebruikt om content te introduceren.</li>
+    <li>[IMAGES] Bijna alle afbeeldingen hebben geen alt attribute > Maakt kern website onbruikbaar voor blinden.</li>
+    <li>[APPEARANCE] Light and dark mode is niet supported.</li>
+    <li>[APPEARANCE] Tekst kan niet worden vergroot naar 200%.</li>
+    <li>[COLOR CONTRAST] Afbeeldingen die overlappen met tekst zijn in sommige gevallen niet goed leesbaar.</li>
+  </ul>
 
 </details>
 
