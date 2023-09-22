@@ -1,21 +1,68 @@
-<!doctype html>
+<!Doctype html>
 <html lang="nl">
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Valentijn van Harn">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Howdy FED2324</title>
+	<title>Shotdeck</title>
 	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link href="./styles/algemeen.css" rel="stylesheet">
+	<link href="./styles/home.css" rel="stylesheet">
+	<link href="./styles/vervolg.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/xpw4ghg.css">
+	<link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
 </head>
 
 <body>
-	<h1>Howdy FED2324</h1>
+	<header>
+		<nav>                  
+			<a href="index.html"><img src="./images/shotdeck_website_logo.png" alt="Logo Shotdeck"/></a>
+			<button aria-hidden="true"><img src="./images/menu.svg" alt="Hamburger menu"/></button>
 
-	<script defer src="scripts/script.js"></script>
+			<ul>
+				<li><a class="active">Home</a></li>
+				<li><a href="#">Browse titles</a></li>
+				<li><a href="#">Browse shots</a></li>
+				<li><a href="#">Decks</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Blog</a></li>
+			  </ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="bovenvouw">
+			<h1>The library of film, one beautiful shot at a time.</h1>
+			<img src="./images/header_joker2.jpeg" alt="Joker">
+			<h2>ShotDeck is the largest collection of fully searchable high-definition movie images in the world.</h2>
+			<p>Joker</p>
+			<form> 
+				<input type="email" id="email" name="email"><br>
+				<button type="submit">Sign up free</button>
+			</form>
+			
+		</section>
+
+		<section class="video">
+			<h3>What Is ShotDeck?</h3>
+			<iframe width="auto" height="200" src="https://www.youtube.com/embed/_3_QMq3n4d8?si=Da6z4E0XDHgpukhf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</section>
+
+		<section class="carousel">
+			<h3>Build a Deck and Share It</h3>
+		</section>
+
+	</main>
+
+	<footer>
+		<section>
+
+		</section>
+	</footer>
+
+	<script src="scripts/script.js"></script>
 </body>
 	
 </html>

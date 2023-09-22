@@ -1,0 +1,39 @@
+.bovenvouw button{
+    background-color: #31caff;
+    padding: 0.5em;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+    font-family: "proxima-nova", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase; 
+    letter-spacing: 0.1em;
+}
+
+.bovenvouw {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.bovenvouw h1 {
+    order: 1;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input {
+    padding: 0.7em;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
