@@ -1,5 +1,5 @@
 .bovenvouw button{
-    background-color: #31caff;
+    background-color:var(--button-color);
     padding: 0.5em;
     border: none;
     color: white;
@@ -14,18 +14,42 @@
 
 .bovenvouw {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 2.5em;
 }
 
-.bovenvouw h1 {
-    order: 1;
+.bovenvouw figure {
+    order: -1;
+    position: relative;
+    margin: 0;
+    font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 0.9em;
+
+}
+
+.bovenvouw figure figcaption {
+    position: absolute;
+    bottom: 1.2em;
+    left: .2em;
+
+}
+
+.bovenvouw h2 {
+    padding-bottom: 1em;
 }
 
 .video {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 2.5em;
+}
+
+.video p {
+    text-align: center;
+    padding-top: 1em;
 }
 
 input {
@@ -36,4 +60,41 @@ input {
 form {
     display: flex;
     flex-direction: column;
+}
+
+.carousel > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel > ul li {
+    min-width:100%;
+    scroll-padding-top: 2em;
+}
+
+.carousel nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.carousel img {
+    aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+.carousel p {
+    text-align: center;
+}
+
+.carousel a img {
+    display: flex;
+    flex-direction: row;
+    max-width: 2em;
+    aspect-ratio: 1/1;
 }

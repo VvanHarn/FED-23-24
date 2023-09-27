@@ -2,21 +2,30 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box; 
 }
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
+	/* Tekst */
 	--color-text:white;
+
+	/* Background */
 	--color-background:black;
+	--color-footer:#171717;
+
+	/* Links */
+	--link-color:#ffffff;
+	--link-visited-color:#ffffff;
+
+	/* Buttons */
+	--button-color:#31caff;
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
-		/* startje */
 		--color-text:black;
 		--color-background:white;
 	}
@@ -26,24 +35,21 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
-/* html {
-	font-family: "proxima-nova", sans-serif;
-	font-weight: 600;
-	font-style: normal;
-} */
-
 h1 {
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-size: 1.8em;
+	margin-bottom: 0.1em;
+	margin-top: 1em;
 }
 
 h2 {
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	letter-spacing: 1px;
+	font-size: 1.3em;
 }
 
 h3 {
@@ -66,6 +72,14 @@ a {
 	font-style: normal;
 }
 
+a:visited {
+	color:var(--link-visited-color);
+}
+
+/* a:focus {
+	
+} */
+
 body {
 	background-color: var(--color-background);
 	color: var(--color-text);
@@ -81,15 +95,15 @@ main {
 /* DE HEADER */
 /*************/
 header {
+	z-index: 9999;
 	min-height:4em;
 	padding:0 1em;
-	background-color: black;
+	background-color: var(--color-background);
 	line-height:1;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-	
   }
   
   /* alle links in de header */
@@ -115,10 +129,16 @@ header {
 	height:3em;
   }
 
-main section img {
-	width: calc(100% + 2em);
+main section img{
 	aspect-ratio: 1/1;
 	object-fit: cover;
+	/* object-position: 75% 25%; */
+	max-width:100%;
+}
+
+main section.bovenvouw img{
+	width: calc(100% + 2em);
+	max-width:unset;
 	margin: 0 -1em;
 	/* object-position: 75% 25%; */
 }
@@ -143,7 +163,7 @@ header button {
   
   header button img {
 	height:1em;
-	padding-left:-0.5em;
+	padding-right: 1.5em;
   }
   
   /***************/
@@ -166,60 +186,97 @@ header button {
   /************/
   /* HET MENU */
   /************/
-  nav {
+  header nav {
 	padding:0.3em;
 	display:grid;
 	align-content:start;
 	gap:3em;
 	display: flex;
 	justify-content: space-between;
+	width: 100vw;
   }
 
-  
-  nav ul {
-	background-color: black;
+  header nav ul {
+	background-color: var(--color-background);
 	position: fixed; 
 	inset:0;
 	translate: 100% 0;
 	transition: .3s;
   }
 
-  nav.open ul {
+  header nav.open ul {
 	translate:0 0;
 }
   
   /*******************/
   /* LIJST MET LINKS */
   /*******************/
-  nav ul { 
+  header nav ul { 
 	margin:0; 
 	padding:0.7em;
 	list-style:none;
   }
-  
-  
-  
+
   /************************/
   /* EEN LINK IN DE LIJST */
   /************************/
  
-  nav a {
+  header nav a {
 	/* icon en tekst met gap-je naast elkaar */
 	display:flex;
 	align-items:center;
 	column-gap:.25em;
   }
   
-  nav a img {
+  header nav a img {
 	width:auto;
 	height:2em;
 	margin-left:-0.2em;
   }
   
-  nav a.active {
+  header nav a.active {
 	font-weight:bold;
   }
 
   header button img {
 	height:1.6em;
+  }
+
+   /************************/
+  /* FOOTER */
+  /************************/
+
+ 
+  footer {
+	background-color: var(--color-footer);
+	height: 10em;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+
+  }
+
+  footer p {
+	text-align: center;
+	font-size: 0.7em;
+	display: flex;
+	flex-direction: column;
+  }
+
+  footer ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+  }
+
+  footer a {
+	color: white;
+	text-decoration: none;
+	padding: 0.5em;
+  }
+
+  footer img {
+	width: 10em;
   }
