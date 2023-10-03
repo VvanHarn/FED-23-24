@@ -19,6 +19,7 @@
 	/* Links */
 	--link-color:#ffffff;
 	--link-visited-color:#ffffff;
+	--link-background-color:#ffffff;
 
 	/* Buttons */
 	--button-color:#31caff;
@@ -30,6 +31,15 @@
 		--color-background:white;
 	}
 }
+
+@media (prefers-color-scheme: contrast) {
+	:root {
+		--color-text:black;
+		--color-background:white;
+	}
+}
+
+
 
 /****************/
 /* JOUW STYLING */
@@ -76,9 +86,9 @@ a:visited {
 	color:var(--link-visited-color);
 }
 
-/* a:focus {
-	
-} */
+a:focus-visible {
+	background:var(--link-background-color);
+}
 
 body {
 	background-color: var(--color-background);
@@ -121,7 +131,6 @@ header {
 	grid-template-columns:min-content min-content;
 	grid-gap:.25em;
 	align-items:center;
-	
 	font-weight:bold; 
   }
   
@@ -272,7 +281,7 @@ header button {
   }
 
   footer a {
-	color: white;
+	color: var(--color-text);
 	text-decoration: none;
 	padding: 0.5em;
   }

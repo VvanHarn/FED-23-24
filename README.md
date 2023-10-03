@@ -89,16 +89,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/breakdown_home_shotdeck.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
-
-
-
 
 
 ## Voortgang 1 (week 2)
@@ -146,20 +137,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - Mijn order werkt niet. Hoe los ik dit op?
+  - Hoe krijg ik tekst over mijn plaatje
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+  
+  - 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
 
 </details>
 
@@ -173,7 +160,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ Uit de tweede toegankelijkheidstest bleek dat veel dingen voor toegankelijkheid zijn verbeterd. Ik heb alleen nog geen high-contrast mode. Maar dat is in mijn geval niet nodig omdat de website van nature al een hoog contrast heeft. 
 
 </details>
 
@@ -220,36 +207,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/shotdeck_home_final1.png" width="375px" alt="Home pagina eerste vouw">
+  <img src="readme-images/shotdeck_home_final2.png" width="375px" alt="Home pagina carousel">
+  <img src="readme-images/shotdeck_pricing_final.png" width="375px" alt="Pricing pagina">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd hoe ik met HTML, CSS en Javascript een werkende website kan maken die toegankelijk is voor mensen met een beperking.
+  Ik vind het waardevol om te weten hoe custom properties werken en hoe ik deze toe pas op mijn site.
+  Het uitwerken van de carousel was het meest uitdagend en ik ben blij dat dit zonder javascript is gelukt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/custom_properties.png" width="375px" alt="top">
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vind het jammer dat ik het niet voor elkaar kreeg om mijn carousel navigatie in het midden van de pagina te centreren. 
+  Alles dat ik heb geprobeerd werkte niet... 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/carousel_niet_midden.png" width="375px" alt="bummer">
 </details>
-
-
-
 
 
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
+  <summary>Dit zijn de bronnen die ik gebruikt hebt om informatie te verkrijgen</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. https://www.w3schools.com/html/html_forms.asp
+	2. https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
+	3. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+	4. https://css-tricks.com/css-only-carousel/
+	5. https://developer.mozilla.org/en-US/docs/Web/CSS/order
+ 
 </details>
