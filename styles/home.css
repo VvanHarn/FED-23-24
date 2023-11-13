@@ -44,7 +44,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-bottom: 2.5em;
+    margin-bottom: -1em;
 }
 
 .video p {
@@ -60,6 +60,7 @@ input {
 form {
     display: flex;
     flex-direction: column;
+    padding:0;
 }
 
 .carousel > ul {
@@ -68,7 +69,7 @@ form {
     padding: 0;
     overflow: hidden;
     scroll-behavior: smooth;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -97,4 +98,86 @@ form {
     flex-direction: row;
     max-width: 2em;
     aspect-ratio: 1/1;
+}
+
+.carousel ul {
+    padding: 0;
+}
+
+
+/* referrals */
+
+.referrals {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2em;
+}
+
+.referrals img {
+    aspect-ratio: 1/1;
+	object-fit: contain;
+	/* object-position: 75% 25%; */
+	max-width:100%;
+    margin-bottom: 0.2em;
+}
+
+.referrals h3 {
+    text-align: center;
+}
+
+.referrals h4 {
+    color:var(--button-color);
+    text-align: center;
+    margin-bottom: -1em;
+}
+
+.referrals p {
+    text-align: center;
+}
+
+/* referrals carousel */
+
+.refferalscarousel h3 {
+    margin-top: 2em;
+}
+
+.refferalscarousel > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    justify-content: start;
+    align-items: center;
+}
+
+.refferalscarousel > ul li {
+    min-width:100%;
+    scroll-padding-top: 2em;
+}
+
+.refferalscarousel nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.refferalscarousel img {
+	object-fit: cover;
+}
+
+.refferalscarousel p {
+    text-align: center;
+}
+
+.refferalscarousel a img {
+    display: flex;
+    flex-direction: row;
+    max-width: 2em;
+    aspect-ratio: 1/1;
+}
+
+.refferalscarousel ul {
+    padding: 0;
+    margin-bottom: 4em;
 }

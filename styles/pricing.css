@@ -13,7 +13,7 @@
 .pricing h2 {
     font-size: 1em;
     text-align: center;
-    margin-bottom: -1em;
+    margin-bottom: 2em;
 }
 
 .pricing p {
@@ -41,4 +41,231 @@
     text-transform: uppercase; 
     letter-spacing: 0.1em;
 }
+
+.pricing h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+.pricing ul {
+    display:grid;
+    gap:1em;
+    padding:0em;
+    position:relative;
+    
+    margin:0;
+    list-style:none;
+  }
+  
+  .pricing li {
+    background-color: midnightblue;
+    aspect-ratio:4/2.7;
+  }
+  
+  
+/* Prijsblock 1 */
+
+  .pricing ul li:nth-of-type(1) {
+    background-image:
+      linear-gradient(
+        #01315f,
+        #0091c8
+      );
+  }
+
+  .pricing ul li p:nth-of-type(1) {
+    margin:0 auto;
+    top:0.5em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1em;
+    font-weight: 400;
+    background-color: var(--button-color);
+    padding: 0.8em;
+    border-radius: 1em;
+  }
+
+  .pricing ul li p:nth-of-type(2) {
+    margin:0;
+    font-size: 3em;
+  }
+
+  .pricing ul li p:nth-of-type(3) {
+    margin:0;
+    font-size: 1em;
+    margin-top: 0.9em;
+  }
+
+  .pricing ul li p:nth-of-type(4) {
+    margin:0;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--color-actie);
+    padding: 0.3em 1em 0.3em 1em;
+    border-radius: 1em;
+    position: absolute;
+    top: 13.5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-white);
+  }
+
+/* Prijsblock 2 */
+
+  .pricing ul:nth-of-type(2) {
+    margin-top: 1.5em;
+  }
+
+  .pricing ul:nth-of-type(2) li p:nth-of-type(1) {
+    display: none;
+  }
+
+  .pricing ul:nth-of-type(2) li p:nth-of-type(2) {
+    margin:0;
+    font-size: 3em;
+  }
+
+  .pricing ul:nth-of-type(2) li p:nth-of-type(3) {
+    margin:0;
+    font-size: 1em;
+    margin-top: 1.8em;
+  }
+
+  .pricing ul:nth-of-type(2) li p:nth-of-type(4) {
+    margin:0;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--color-white);
+    background-color: transparent;
+    position: absolute;
+    top: 13.5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Extras */
+
+  .extras {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+  .extras ul {
+    display:grid;
+    gap:1em;
+    padding:1em;
+    margin: 3em;
+    position:relative;
+    background-color: #01315f;
+    
+    margin:0;
+    list-style:none;
+  }
+
+  .extras li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .extras button {
+    background-color:var(--button-color);
+    padding: 0.5em;
+    margin-top: 1.5em;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+    font-family: "proxima-nova", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+    font-size: 0.9em;
+    text-transform: uppercase; 
+    letter-spacing: 0.1em;
+}
+
+.extras ul li h4 {
+    margin-top: 0.5em;
+	margin-bottom: -0.7em;
+}
+
+.extras ul li p {
+    margin-bottom: 0.1em;
+}
+
+.extras p {
+    margin-bottom: -1em;
+}
+
+
+ /* Form */
+
+.form {
+    margin-top: 5em;
+    margin-bottom: 4em;
+    padding:0;
+}
+
+.form h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+}
+
+.form p {
+    margin-top: -1.2em;
+    margin-bottom: 0.1em;
+}
+
+.form form ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.form ul {
+    padding: 0;
+    margin-top: 0.1em;
+    display:grid;
+    gap:1em;
+    padding:1em;
+    margin: 3em;
+    position:relative;
+    background-color: var(--color-footer);
+    
+    margin:0;
+    list-style:none;
+}
+
+.form ul li label {
+    font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+    margin-bottom: 0.1em;
+    margin-top: 0.4em;
+}
+
+.form button {
+    background-color:var(--button-color);
+    padding: 0.5em 1em 0.5em 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+    font-family: "proxima-nova", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+    font-size: 0.9em;
+    text-transform: uppercase; 
+    letter-spacing: 0.1em;
+}
+
+
 

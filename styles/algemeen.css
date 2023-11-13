@@ -11,10 +11,12 @@
 :root {
 	/* Tekst */
 	--color-text:white;
+	--color-actie: red;
 
 	/* Background */
 	--color-background:black;
 	--color-footer:#171717;
+	--color-white: #ffffff;
 
 	/* Links */
 	--link-color:#ffffff;
@@ -68,6 +70,14 @@ h3 {
 	font-style: normal;
 	font-size: 1.8em;
 	margin-bottom: 0.6em;
+}
+
+h4 {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.1em;
+	margin-bottom: 0.9em;
 }
 
 p {
@@ -139,7 +149,6 @@ header {
   }
 
 main section img{
-	aspect-ratio: 1/1;
 	object-fit: cover;
 	/* object-position: 75% 25%; */
 	max-width:100%;
